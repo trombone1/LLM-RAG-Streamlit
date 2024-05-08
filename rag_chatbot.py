@@ -1,3 +1,5 @@
+!pip install -q streamlit langchain faiss-cpu sentence-transformers==2.2.2 InstructorEmbedding pypdf
+
 import streamlit as st
 import os
 from pages.backend import rag_functions
